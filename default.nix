@@ -4,7 +4,7 @@
   ...
 }:
 
-mkDerivation rec {
+pkgs.stdenv.mkDerivation rec {
   pname = "eorzean-typeface";
   version = "1.051";
 
