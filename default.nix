@@ -1,11 +1,10 @@
 {
   lib,
-  stdenvNoCC,
   pkgs,
   ...
 }:
 
-stdenvNoCC.mkDerivation rec {
+mkDerivation rec {
   pname = "eorzean-typeface";
   version = "1.051";
 
