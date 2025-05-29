@@ -2,6 +2,7 @@
   lib,
   stdenvNoCC,
   pkgs,
+  ...
 }:
 
 stdenvNoCC.mkDerivation rec {
