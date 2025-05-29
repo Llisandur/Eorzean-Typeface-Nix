@@ -1,7 +1,7 @@
 {
   lib,
   stdenvNoCC,
-  fetchurl,
+  pkgs,
 }:
 
 stdenvNoCC.mkDerivation rec {
